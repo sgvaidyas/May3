@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+}
+
+
+.head_style
+{
+    background-color: black;
+    color: goldenrod;
+}
+.leftimage img{
+    height:400px
+}
+.rightimage img
+{
+    height:200px
+}
+#contact
+{
+    background-image: url("mainimg.jpg");
+    height:500px;
+    color:blanchedalmond;
+}
+.bg_contact
+{
+ background-color: rgba(222,22,22,0.3);
+ padding-top:50px   
+}
