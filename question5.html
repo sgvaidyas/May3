@@ -1,0 +1,28 @@
+<html>
+    <script>
+        function prec(n,d)
+        {
+            return n.toPrecision(d);
+        }
+        function tostr(n,d)
+        {
+            return n.toString(d);
+        }
+        function tofix(n,d)
+        {
+            return n.toFixed(d);
+        }
+        function toval(n,d)
+        {
+            return n.valueOf(d);
+        }
+        res = prec(2.34167,3);
+        console.log(res);
+        res = tostr(2.34167,3);
+        console.log(res);
+        res = tofix(2.34167,3);
+        console.log(res);
+        res = toval(2.34167,3);
+        console.log(res);
+    </script>
+</html>

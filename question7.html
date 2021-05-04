@@ -1,0 +1,19 @@
+<html>
+    <script>
+        var daysInMonth;
+        var month;
+        month = new Date().getMonth();
+        switch(month)
+        {
+            case 1: daysInMonth = 28;break;
+            case 0:
+            case 3:
+            case 5:
+            case 8:
+            case 10:daysInMonth = 30;break;
+            default:daysInMonth=31;break;
+        }
+        console.log("No of days in this month =" + daysInMonth);
+
+    </script>
+</html>

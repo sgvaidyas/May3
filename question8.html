@@ -1,0 +1,18 @@
+<html>
+    <script>
+        
+        var a = prompt("Please enter the a",0);
+        var b = prompt("Please enter the b",0);
+        try{
+            if(b==0)
+                throw("Divide by zero ");
+            res = a/b;
+            var c = prompt("Please enter the c",0);
+            res = res *c;
+            console.log("a/b*c  = " + res);
+        }
+        catch(e){
+            console.log("Caught an exception = " + e)
+        }
+    </script>
+</html>

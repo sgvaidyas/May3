@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            function validate()
+            {
+                var input = document.getElementById("tester").value;
+                var text = document.getElementById("userText").innerHTML;
+                if (input == text)
+                {
+                    alert("SUCCESS");
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <p id = "userText">When in course of human events...</p>
+        <input type = "input" id="tester" />
+        <button onclick="validate()">Validate</button>
+    </body>
+</html>
